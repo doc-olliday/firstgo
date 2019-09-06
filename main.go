@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "Modified feature branch"
+	title := "Modified again feature branch"
 
 	from := ""
 	if r.URL != nil {
